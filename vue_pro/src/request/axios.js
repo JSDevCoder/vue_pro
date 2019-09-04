@@ -16,7 +16,7 @@ axios.interceptors.request.use(
         }else{
             config.baseURL = reqPathConfig().baseUrl;
         }
-
+        
         return config;
     },
     err => {
