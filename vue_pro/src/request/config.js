@@ -12,11 +12,11 @@ export function reqPathConfig() {
       url.mockUrl = 'https://www.easy-mock.com/mock/5d677b0a09835a6fa2c1feb3/api';
       url.resUrl = '';
       break;
-    case '':
+    case 'production':
       url.baseUrl = '';
       url.resUrl = '';
       break;
-    case '':
+    case 'test':
       url.baseUrl = '';
       url.resUrl = '';
       break;
